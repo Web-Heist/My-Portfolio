@@ -3,25 +3,39 @@
     padding: 0%;
 }
 
+.html body{
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+}
 
 .fsect{  
-    margin-left:30rem;
-    margin-top:12rem;
-    width:65rem;
+    margin-left:30%;
+    margin-top:15%;
+    width:60%;
     height:30rem;
-    border:5rem;
+    border:8%;
     background-image: none;
 
 }
 
+.fsect1{margin-left:3.5%; margin-top:-2rem;}
+.fsect2{margin-left:21%; margin-top:-4rem;}
+.fsect3{margin-left:38%; margin-top:-8rem; padding-left:0.2rem;}
+.fsect4{margin-left:3.5%; margin-top:11rem; padding-left:0.2rem;}
+.fsect5{margin-left:21%; margin-top:10rem; padding-left:0.2rem;}
+.fsect6{margin-left:38%; margin-top:8rem;}
+
 
 .fsect0{  
-    font-size:1rem;
+    font-size:1rem; position:absolute;
     font-family:cursive;
     width:10rem;
     height:12rem;
-    border:5rem;
-    border-bottom-right-radius:3rem ;
+    border:8%;
+    border-bottom-right-radius:3rem;
     border-color: rgb(0, 0, 0);
     color:rgb(223, 224, 224);
     background-image : linear-gradient(to right,rgb(63, 59, 59),rgb(41, 59, 73));
@@ -31,36 +45,33 @@
 
 }
 
-.box{ background-image : linear-gradient(to bottom,rgb(7, 7, 7),rgb(19, 28, 34));
-    width: 99vw; height: 240vh;}
+.box{ background-image : linear-gradient(to bottom,rgb(7, 7, 7),rgb(17, 28, 34));
+    width:100%; height: 240vh;}
    
-.gradient{  background-image : linear-gradient(to bottom, rgb(19, 28, 34), rgb(7, 7, 7));
-    width: 120vw; height: 140vh; z-index:10;}
+.gradient{  background-image : linear-gradient(to bottom, rgb(17, 28, 34), rgb(7, 7, 7));
+    width:100%; height:100%; z-index:10;}
 
 .thk{font-size:2.5rem; background-color: black;
      color: rgb(208, 211, 212);
-    margin-left:0rem;
     font-family: cursive;}
 
-.fafa{ color:rgb(19, 28, 34);
-    margin-left:2rem;
-    margin-top:-99rem;
+.fafa{ color:rgb(17, 28, 34); position: absolute;
+    margin-left:-22%;
+    margin-top:23rem;
      animation-name:yoo;
     animation-duration:2s;
    animation-iteration-count: infinite;}
 
-   .far{color:rgb(19, 28, 34);
+   .far{color:rgb(17, 28, 34);
     float:left;
-    margin-top:-6rem;
-    margin-left:20rem;
+    margin-top:-5%;
+    margin-left:20%;
       animation-name:yon;
     animation-duration:2s;
    animation-iteration-count: infinite;}
 
-.bg1{ background-image : linear-gradient(to top,rgb(8, 8, 8),rgb(19, 28, 34));
-    width:max-content;
-    height:max-content; position:relative; z-index:10;
-}
+.bg1{ background-image : linear-gradient(to top,rgb(8, 8, 8),rgb(17, 28, 34));
+    width:100%;}
 
 .bg1 h1{
     font-family: 'Creepy';
@@ -68,10 +79,10 @@
    word-spacing:0.04rem;
     color:rgb(228, 226, 226);
      display: grid; text-align: center; align-self: center;align-items: center; align-content: center;
-    width: 18rem;
+    width:18rem;
     height: 18rem;
     margin-top:2rem;
-    margin-left:6rem;
+    margin-left:6%;
     float: left;
     border: 1rem solid rgb(22, 21, 21); 
     border-radius: 50%;
@@ -87,7 +98,7 @@ animation-duration:2.5s;
 animation-iteration-count:1;} 
         
 
-.box p{font-size:1.1rem; color: white; float:left; margin-left:7rem; font-family: 'Alegreya'}
+.box p{font-size:1.1rem; color: white; float:left; margin-left:7%; font-family: 'Alegreya'}
 
 .h22{
     font-size:2rem; background-image : linear-gradient(to right,rgb(63, 59, 59),rgb(41, 59, 73)); color:rgb(233, 234, 235); width:9rem;
@@ -97,16 +108,16 @@ animation-iteration-count:1;}
     align-self: center;}
 
 .gradient form{
-    font-size:1.5rem; margin-left:2rem;
+    font-size:1.5rem; margin-left:2%;
 }
 
 .gradient form label{font-family: 'Alegreya';
  font-size:1.5rem; color:white; }
 
- .cont p5{font-size:1.5rem;  font-family: 'Creepster', cursive; color:rgb(230, 227, 227); width:45rem; margin-left:6rem; background-color: rgb(19, 28, 34); height:8rem; }
-.cont p{background-color:aliceblue; color: rgb(19, 28, 34); width:25rem; font-size:1.5rem; margin-left:2rem; font-family: 'Creepster', cursive;}
-.cont p2{background-color:aliceblue; color:rgb(19, 28, 34); width:37rem; font-size:1.5rem; margin-left:2rem; font-family: 'Creepster', cursive;}
-.cont p3{background-color:aliceblue; color:rgb(19, 28, 34); width:37rem; font-size:1.5rem; margin-left:2rem; font-family: 'Creepster', cursive;}
+ .cont p5{font-size:1.5rem;  font-family: 'Creepster', cursive; color:rgb(230, 227, 227); width:45rem; margin-left:6%; background-color: rgb(17, 28, 34); height:8rem; }
+.cont p{background-color:aliceblue; color: rgb(17, 28, 34); width:25rem; font-size:1.5rem; margin-left:3%; font-family: 'Creepster', cursive;}
+.cont p2{background-color:aliceblue; color:rgb(17, 28, 34); width:37rem; font-size:1.5rem; margin-left:3%; font-family: 'Creepster', cursive;}
+.cont p3{background-color:aliceblue; color:rgb(17, 28, 34); width:37rem; font-size:1.5rem; margin-left:3%; font-family: 'Creepster', cursive;}
 
 
 .gradient h6{
@@ -114,9 +125,9 @@ animation-iteration-count:1;}
     color: rgb(255, 255, 255);
      border-top-left-radius:2rem;
      border-bottom-right-radius:2rem; 
-     background-image : linear-gradient(to right,rgb(2, 2, 2),rgb(19, 28, 34));
+     background-image : linear-gradient(to right,rgb(2, 2, 2),rgb(17, 28, 34));
      width: 18.5rem; height: 4rem; 
-     margin-left: 37rem;
+     margin-left:37%;
      display:grid;
     text-align: center;
      align-items: center;
@@ -129,7 +140,7 @@ animation-iteration-count:1;}
         color: rgb(255, 255, 255);
          border-top-left-radius:2rem;
          border-bottom-right-radius:2rem; 
-         background-image : linear-gradient(to bottom,rgb(2, 2, 2),rgb(19, 28, 34));
+         background-image : linear-gradient(to bottom,rgb(2, 2, 2),rgb(17, 28, 34));
          width: 14rem; height: 4rem; 
          margin-left: 39rem; margin-top:4rem;
          display:grid;
@@ -141,7 +152,7 @@ animation-iteration-count:1;}
 
 .h44{font-size:2.7rem; color: #e0dddd;
      height:3rem; display:grid; font-family: 'Creepy';
-    text-align: center; float: left; margin-left:3rem;
+    text-align: center; float: left; margin-left:3%;
      align-items: center;
     align-self: center;}
 
@@ -157,9 +168,9 @@ animation-iteration-count:1;}
     color: rgb(255, 255, 255);
      border-top-left-radius:2rem;
      border-bottom-right-radius:2rem; 
-     background-image : linear-gradient(to left,rgb(2, 2, 2),rgb(19, 28, 34));
+     background-image : linear-gradient(to left,rgb(2, 2, 2),rgb(17, 28, 34));
      width: 15rem; height: 4rem; 
-     margin-left: 19rem;
+     margin-left:19%;
      display:grid;
     text-align: center;
      align-items: center;
@@ -171,9 +182,9 @@ animation-iteration-count:1;}
     color: rgb(255, 255, 255);
      border-top-left-radius:2rem;
      border-bottom-right-radius:2rem; 
-     background-image : linear-gradient(to Right,rgb(2, 2, 2),rgb(19, 28, 34));
+     background-image : linear-gradient(to Right,rgb(2, 2, 2),rgb(17, 28, 34));
      width: 17rem; height: 4rem; 
-     margin-left: 60rem; margin-top:-4.4rem;
+     margin-left:60%; margin-top:-4.4rem;
      display:grid;
     text-align: center;
      align-items: center;
@@ -187,15 +198,15 @@ animation-iteration-count:1;}
     border-bottom-left-radius:100%;
     border-top-left-radius:100%;
     border-bottom-right-radius:100%;
-    width:22.7rem; height:23.5rem;
+    width:24%; height:48%;
             margin-top:-11.5rem;
-           margin-left:6rem;
+           margin-left:6%;
            position: absolute;}
 
 
  .prosect0 {
     font-size: 1rem; position: absolute;
-    z-index:20;  
+    z-index:20;
     visibility: visible; 
     font-family: cursive; 
     width: 14rem; 
@@ -205,28 +216,41 @@ animation-iteration-count:1;}
     background-image: linear-gradient(to right, rgb(63, 59, 59), rgb(41, 59, 73));
 }
 
-
+.prosect1{margin-left:12rem; margin-top:4rem;} 
+.prosect2{margin-left:36rem; margin-top:4rem;} 
+.prosect3{margin-left:61rem; margin-top:4rem;} 
+.prosect4{margin-left:12rem; margin-top:18rem;} 
+.prosect5{margin-left:36rem; margin-top:18rem;} 
+.prosect6{margin-left:61rem; margin-top:18rem;} 
 
 
 .name{
-    margin-left:64rem; margin-top:-4rem; color: rgb(0, 0, 0); font-size:3.5rem; font-family:creepy;
+    margin-left:69rem; margin-top:-4rem; color: rgb(0, 0, 0); font-size:3.5rem; font-family:creepy;
 }
 .info{
-    margin-left:64rem; margin-top:-0.5rem; color: rgb(96, 139, 196); font-size:1.2rem;
+    margin-left:69rem; margin-top:-0.5rem; color: rgb(96, 139, 196); font-size:1.2rem;
 }
 
+.welcome{color:rgba(255, 255, 255, 0.842); margin-left:3rem; margin-top:8rem;}
+
  .skills1{ 
+    position:static;
     font-size: 1rem;
-    margin-left:-70rem ;
-    margin-top: -3rem;
+    margin-left:-70rem;
+    margin-top:-3rem;
     text-align: center;
     align-items: center;
  }
 
+ .experience{
+    position:relative;
+    padding-left:40rem; margin-top:-32rem;
+ }
 
-.gradient2{ background-image : linear-gradient(to top,rgb(17, 17, 26),rgb(75, 75, 75)); width: 99vw; height: 1rem;}    
 
-.navbg{ background-image : linear-gradient(to bottom,rgb(0, 0, 0),rgb(19, 28, 34));
+.gradient2{ background-image : linear-gradient(to top,rgb(17, 17, 26),rgb(75, 75, 75)); width:100%; height: 1rem;}    
+
+.navbg{ background-image : linear-gradient(to bottom,rgb(0, 0, 0),rgb(17, 28, 34));
     display:block; z-index:4; top:0;}
 
 
@@ -245,7 +269,7 @@ margin-left :2rem;
 #textBlock1 {
     width: 18rem; position: absolute;
     height: 11rem;  z-index:30;
-    margin-left:2rem; margin-top:1rem;
+    margin-left:2%; margin-top:1rem;
     padding: 1.5rem;
    background-image: linear-gradient(to right, rgb(63, 59, 70), rgb(41, 59, 55)); 
     color: white;
@@ -266,7 +290,7 @@ margin-left :2rem;
 #textBlock2 {
     width: 18rem; position: absolute;
     height: 11rem;  z-index:30;
-    margin-left:48rem; margin-top:1rem;
+    margin-left:48%; margin-top:1rem;
     padding: 1.5rem;
    background-image: linear-gradient(to right, rgb(63, 59, 70), rgb(41, 59, 55)); 
     color: white;
@@ -287,7 +311,7 @@ margin-left :2rem;
 #textBlock3 {
     width: 18rem; position: absolute;
     height: 11rem;  z-index:30;
-    margin-left:72rem; margin-top:1rem;
+    margin-left:72%; margin-top:1rem;
     padding: 1.5rem;
    background-image: linear-gradient(to right, rgb(63, 59, 70), rgb(41, 59, 55)); 
     color: white;
@@ -308,7 +332,7 @@ margin-left :2rem;
 #textBlock4 {
     width: 18rem; position: absolute;
     height: 11rem;  z-index:30;
-    margin-left:2rem; margin-top:22rem;
+    margin-left:2%; margin-top:22rem;
     padding: 1.5rem;
    background-image: linear-gradient(to right, rgb(63, 59, 70), rgb(41, 59, 55)); 
     color: white;
@@ -329,7 +353,7 @@ margin-left :2rem;
 #textBlock5 {
     width: 18rem; position: absolute;
     height: 11rem;  z-index:30;
-    margin-left:48rem; margin-top:22rem;
+    margin-left:48%; margin-top:22rem;
     padding: 1.5rem;
    background-image: linear-gradient(to right, rgb(63, 59, 70), rgb(41, 59, 55)); 
     color: white;
@@ -350,7 +374,7 @@ margin-left :2rem;
 #textBlock6 {
     width: 18rem; position: absolute;
     height: 11rem;  z-index:30;
-    margin-left:72rem; margin-top:22rem;
+    margin-left:72%; margin-top:22rem;
     padding: 1.5rem;
    background-image: linear-gradient(to right, rgb(63, 59, 70), rgb(41, 59, 55)); 
     color: white;
@@ -528,10 +552,10 @@ margin-left :2rem;
     animation-delay:8s;
 }
 
-
 .amoo{
-    background-color:rgb(48, 68, 87);
-     width:6.5rem; height:7.5rem;
+    text-align: center; align-items: center; align-content: center;
+    background-color:rgb(48, 68, 88); font-size:1rem; color: rgb(25, 35, 44);
+     width:6.5rem; height:7.5rem; position: absolute;
      border-bottom-left-radius:50%;
      border-top-right-radius:50%;
      border-top-left-radius:50%;
@@ -568,73 +592,98 @@ margin-left :2rem;
     }
     100%{
         opacity:1;
-        transform:translate(3rem,1rem); }
+        transform:translate(3%,0.1rem); }
     }
 
 
 @keyframes woo{
-    0% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:19rem;}
+    0% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:19%;}
     45%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:-5rem;}
-    50% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:37rem;}
+    50% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:37%;}
     55%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:4.5rem;}
-    60% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:43rem;}
+    60% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:43%;}
     65%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:-5rem;}
-    70% { background-image:linear-gradient(to top ,rgb(230, 229, 229),rgb(48,68,88)); margin-left:50rem;}
+    70% { background-image:linear-gradient(to top ,rgb(230, 229, 229),rgb(48,68,88)); margin-left:50%;}
     75%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:4.5rem;}
-    80% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:57rem;}
+    80% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:57%}
     85%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:-5rem;}
-    90% { background-image:linear-gradient(to top ,rgb(238, 237, 237),rgb(48,68,88)); margin-left:64rem;}
+    90% { background-image:linear-gradient(to top ,rgb(238, 237, 237),rgb(48,68,88)); margin-left:64%;}
     95%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:4.5rem;}
-    100% { background-image:linear-gradient(to top ,rgb(233, 232, 232),rgb(48,68,88)); margin-left:71rem;}
+    100% { background-image:linear-gradient(to top ,rgb(233, 232, 232),rgb(48,68,88)); margin-left:71%;}
     105%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:-5rem;}
-    110% { background-image:linear-gradient(to top ,rgb(233, 231, 231),rgb(48,68,88)); margin-left:78rem;}
+    110% { background-image:linear-gradient(to top ,rgb(233, 231, 231),rgb(48,68,88)); margin-left:78%;}
     115%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:4.5rem;}
-    120% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:85rem;}
+    120% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:85%;}
     125%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:-5rem;}
-    130% { background-image:linear-gradient(to top ,rgb(235, 232, 232),rgb(48,68,88)); margin-left:92rem;}
+    130% { background-image:linear-gradient(to top ,rgb(235, 232, 232),rgb(48,68,88)); margin-left:92%;}
     135%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:4.5rem;}
-    140% { background-image:linear-gradient(to top ,rgb(231, 231, 231),rgb(48,68,88)); margin-left:100rem;}
-    145%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:-5rem;}
-    150% { background-image:linear-gradient(to top ,rgb(231, 230, 230),rgb(48,68,88)); margin-left:110rem;}
-    155%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:4.5rem;}
-    160% { background-image:linear-gradient(to top ,rgb(235, 232, 232),rgb(48,68,88)); margin-left:120rem;}
-    165%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:-5rem;}
-    170% { background-image:linear-gradient(to top ,rgb(236, 236, 236),rgb(48,68,88)); margin-left:125rem;}
-    180%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:4.5rem;}
-    185%{ background-image:linear-gradient(to top ,rgb(230, 228, 228),rgb(48,68,88)); margin-left:133rem;}
-    190%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:-5rem;}
-    195% { background-image:linear-gradient(to top ,rgb(231, 230, 230),rgb(48,68,88)); margin-left:138rem;}
-    200%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:4.5rem;} 
-    205% { background-image:linear-gradient(to top ,rgb(238, 237, 237),rgb(48,68,88)); margin-left:145rem;}
-    210%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:-5rem;}
-    215% { background-image:linear-gradient(to top ,rgb(233, 233, 233),rgb(48,68,88)); margin-left:150rem;}
-    220%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:4.5rem;}
-    225% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:155rem;}
-    230%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:-5rem;}
-    235% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:160rem;}
-    240%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:4.5rem;}
-    245% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:165rem;}
-    250%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:-5rem;}
-    255% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:170rem;}
+}
+
+@keyframes wooalter{
+    0% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:2%;}
+    10%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:12rem;}
+    20% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:15%;}
+    30%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:35rem;}
+    40% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:25%;}
+    45%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:12rem;}
+    50% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:35%;}
+    55%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:35rem;}
+    60% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:43%;}
+    65%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:12rem;}
+    70% { background-image:linear-gradient(to top ,rgb(230, 229, 229),rgb(48,68,88)); margin-left:50%;}
+    75%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:35rem;}
+    80% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:57%}
+    85%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:12rem;}
+    90% { background-image:linear-gradient(to top ,rgb(238, 237, 237),rgb(48,68,88)); margin-left:64%;}
+    95%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:35rem;}
+    100% { background-image:linear-gradient(to top ,rgb(233, 232, 232),rgb(48,68,88)); margin-left:71%;}
+    105%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:12rem;}
+    110% { background-image:linear-gradient(to top ,rgb(233, 231, 231),rgb(48,68,88)); margin-left:78%;}
+    115%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:35rem;}
+    120% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:85%;}
+    125%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:12rem;}
+    130% { background-image:linear-gradient(to top ,rgb(235, 232, 232),rgb(48,68,88)); margin-left:100%;}
 }
 
 
-/* Extra small devices (phones, 425px and down) */
-@media only screen and (max-width: 425px) { html{font-size:10%;} .box{width:100%; height:125rem;} .gradient{width:100%; height:100%;}
- .gradient2{width:100%;} .bg1{width: 100%;} .navbg{width: 100%;}}
+/* Extra small devices (phones, 375px and down) */
+@media  only screen and (width <= 768px) { html{font-size:55%;} .box{width:100%; height:170rem;} .gradient{width:100%; height:100%;}
+ .gradient2{width:100%;} .bg1{width: 100%; height:812px;}  .pic img{width:27rem; height:28rem; margin-left:-18rem;}  
+    .h22{margin-left:-38rem;} .navbg{width:100%;} .cont{margin-top:6rem;}
+  .fsect0{font-family:'Alegreya'; padding-top:5rem; margin-top:28rem;}  .amoo{animation-name:wooalter; animation-duration:6s; animation-iteration-count:infinite;}
+  .fsect1{margin-left:-8rem; margin-top:30rem;} .fsect2{margin-left:5rem; margin-top:25rem;} .fsect3{margin-left:17rem; margin-top:18rem;}
+  .fsect4{margin-left:-8rem; margin-top:45rem;} .fsect5{margin-left:5rem; margin-top:40rem;} .fsect6{margin-left:17rem; margin-top:34rem;}
+   .fafa{margin-left:-15rem; margin-top:70rem;} .gradient h6{margin-top:32rem;}
+  .h33{margin-top:34rem; margin-left:3rem;}  .h77{margin-top:-4.5rem; margin-left:22rem;}
+   .h55{margin-left:15rem;} .h44{font-size:2.3rem; margin-top:30rem;} .title{font-size:1.5rem; margin-left:-4rem; padding-bottom:5rem;} 
+   .navitem{font-size:1.1rem;} .skills1{padding-left:30.5rem;} .experience{padding-left:13rem;} 
+  .prosect1{margin-left:4rem;} .prosect2{margin-left:22rem;} 
+  .prosect3{margin-left:4rem; margin-top:21rem;} .prosect4{margin-left:22rem; margin-top:21rem;} 
+  .prosect5{margin-left:4rem; margin-top:38rem;} .prosect6{margin-left:22rem; margin-top:38rem;}
+ .name{margin-left:1rem; font-size:0.5rem;} .info{margin-left:1rem; font-size:0.9rem;}
+ #textBlock3{margin-left:4rem; margin-top:15rem;}  #textBlock4{margin-left:22rem; margin-top:15rem;}
+ #textBlock5{margin-left:4rem; margin-top:30rem;}  #textBlock6{margin-left:22rem; margin-top:30rem;}
+ html body{ width:100%; height:100%; margin:0px; padding:0px; overflow-x:hidden;}}
 
-/* Extra small devices (phones, 600px and down) */
+
+/* Extra small devices (phones, 425px and down) 
+@media only screen and (width <= 425px) { html{font-size:10%;} .box{width:100%; height:125rem;} .gradient{width:100%; height:100%;}
+ .gradient2{width:100%;} .bg1{width: 100%;} .navbg{width: 100%;} .fsect0{font-family:'Alegreya';} .html body{ width:100%;}}*/
+
+/* Extra small devices (phones, 600px and down)
 @media only screen and (max-width: 600px) { html{font-size: 32%;} .box{width:100%; height:100%;} .gradient{width:100%; height:100%;}
- .gradient2{width:100%;} .bg1{width: 100%; } .navbg{width:100%;}  .name{font-size:2.5rem; margin-left:55rem;} .skills1{margin-left:-60rem;}
- .info{margin-left:55rem;}}
+ .gradient2{width:100%;} .bg1{width: 100%; } .navbg{width:100%;}  .name{font-size:2.5rem; margin-left:55%;} .skills1{margin-left:90rem;}
+ .info{margin-left:55%;} .fsect0{font-family:'Alegreya';}}*/
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {html{font-size: 70%;} .box{width:170%; height:100%;} .gradient{width:170%; height:100%;}
-.gradient2{width:170%;} .bg1{width:170%;} .navbg{width: 170%;} .navitem{font-size:1.3rem;} .skills1{margin-left:-110rem;} .name{font-size:2.5rem; margin-left:55rem;}
- .skills1{margin-left:-85rem;}
-.info{margin-left:55rem;}}
+@media only screen and (600 > width <= 768px) {html{font-size:40%;} .box{width:100%; height:100%;} .gradient{width:100%; height:100%;}
+.gradient2{width:100%;} .bg1{width:100%;} .navbg{width: 100%;} .navitem{font-size:1.3rem;} .skills1{margin-left:-110rem;}
+ .name{font-size:2.5rem; margin-left:35%;} .info{margin-left:35%;}
+ .skills1{margin-left:-85rem;} .fsect{margin-left:8%; margin-top:30rem;} }
+ 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {html{font-size:100%;} .box{width:100%; height: 100%;} .gradient{width:100%; height:100%;}
+@media only screen and (min-width: 1200px) {html{font-size:100%;} .box{width:100%; height:250;} .gradient{width:100%; height:100%;}
 .gradient2{width:100%;} .bg1{width:100%; height:100%;} .navitem{font-size:1.5rem;} .navbg{width: 100%;} .skills1{margin-left:-70rem;}
-.name{font-size:3rem; margin-left:64rem;} .info{margin-left:64rem;}}
+.name{font-size:3rem; margin-left:69%;} .info{margin-left:69%;}}
+
