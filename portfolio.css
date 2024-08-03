@@ -74,7 +74,7 @@
     width:100%;}
 
 .bg1 h1{
-    font-family: 'Creepy';
+    font-family: creepy;
     font-size: 1.7rem;
    word-spacing:0.04rem;
     color:rgb(228, 226, 226);
@@ -102,7 +102,7 @@ animation-iteration-count:1;}
 
 .h22{
     font-size:2rem; background-image : linear-gradient(to right,rgb(63, 59, 59),rgb(41, 59, 73)); color:rgb(233, 234, 235); width:9rem;
-     height:3rem; display:grid; font-family: 'Creepy';
+     height:3rem; display:grid; font-family: creepy;
     text-align: center; float: left; margin-left:-40rem; margin-top:15rem;
      align-items: center;
     align-self: center;}
@@ -121,7 +121,7 @@ animation-iteration-count:1;}
 
 
 .gradient h6{
-    font-size:1.5rem; font-family: 'Creepy';
+    font-size:1.5rem; font-family: creepy;
     color: rgb(255, 255, 255);
      border-top-left-radius:2rem;
      border-bottom-right-radius:2rem; 
@@ -136,7 +136,7 @@ animation-iteration-count:1;}
 }
 
 
-.h55{font-size:3rem; font-family: 'Creepy';
+.h55{font-size:3rem; font-family: creepy;
         color: rgb(255, 255, 255);
          border-top-left-radius:2rem;
          border-bottom-right-radius:2rem; 
@@ -151,20 +151,20 @@ animation-iteration-count:1;}
 
 
 .h44{font-size:2.7rem; color: #e0dddd;
-     height:3rem; display:grid; font-family: 'Creepy';
+     height:3rem; display:grid; font-family:creepy;
     text-align: center; float: left; margin-left:3%;
      align-items: center;
     align-self: center;}
 
 .title{
     font-size:1.5rem; color: rgb(113, 157, 197);
-     height:3rem; display:grid; font-family: 'Creepy' ;
+     height:3rem; display:grid; font-family:creepy;
     text-align: center; float: left; margin-left:-2rem;
      align-items: center;
     align-self: center;
 }
 
-.h33{font-size:0.5rem; font-family: 'Creepy';
+.h33{font-size:0.5rem; font-family:creepy;
     color: rgb(255, 255, 255);
      border-top-left-radius:2rem;
      border-bottom-right-radius:2rem; 
@@ -178,7 +178,7 @@ animation-iteration-count:1;}
 
       
 .h77{
-    font-size:1.7rem; font-family: 'Creepy';
+    font-size:1.7rem; font-family: creepy;
     color: rgb(255, 255, 255);
      border-top-left-radius:2rem;
      border-bottom-right-radius:2rem; 
@@ -645,24 +645,24 @@ margin-left :2rem;
     130% { background-image:linear-gradient(to top ,rgb(235, 232, 232),rgb(48,68,88)); margin-left:100%;}
 }
 
-
 /* Extra small devices (phones, 375px and down) */
-@media  only screen and (width <= 768px) { html{font-size:55%;} .box{width:100%; height:170rem;} .gradient{width:100%; height:100%;}
- .gradient2{width:100%;} .bg1{width: 100%; height:812px;}  .pic img{width:27rem; height:28rem; margin-left:-18rem;}  
-    .h22{margin-left:-38rem;} .navbg{width:100%;} .cont{margin-top:6rem;}
-  .fsect0{font-family:'Alegreya'; padding-top:5rem; margin-top:28rem;}  .amoo{animation-name:wooalter; animation-duration:6s; animation-iteration-count:infinite;}
-  .fsect1{margin-left:-8rem; margin-top:30rem;} .fsect2{margin-left:5rem; margin-top:25rem;} .fsect3{margin-left:17rem; margin-top:18rem;}
-  .fsect4{margin-left:-8rem; margin-top:45rem;} .fsect5{margin-left:5rem; margin-top:40rem;} .fsect6{margin-left:17rem; margin-top:34rem;}
-   .fafa{margin-left:-15rem; margin-top:70rem;} .gradient h6{margin-top:32rem;}
-  .h33{margin-top:34rem; margin-left:3rem;}  .h77{margin-top:-4.5rem; margin-left:22rem;}
-   .h55{margin-left:15rem;} .h44{font-size:2.3rem; margin-top:30rem;} .title{font-size:1.5rem; margin-left:-4rem; padding-bottom:5rem;} 
-   .navitem{font-size:1.1rem;} .skills1{padding-left:30.5rem;} .experience{padding-left:13rem;} 
-  .prosect1{margin-left:4rem;} .prosect2{margin-left:22rem;} 
-  .prosect3{margin-left:4rem; margin-top:21rem;} .prosect4{margin-left:22rem; margin-top:21rem;} 
-  .prosect5{margin-left:4rem; margin-top:38rem;} .prosect6{margin-left:22rem; margin-top:38rem;}
- .name{margin-left:1rem; font-size:0.5rem;} .info{margin-left:1rem; font-size:0.9rem;}
- #textBlock3{margin-left:4rem; margin-top:15rem;}  #textBlock4{margin-left:22rem; margin-top:15rem;}
- #textBlock5{margin-left:4rem; margin-top:30rem;}  #textBlock6{margin-left:22rem; margin-top:30rem;}
+@media  only screen and (width <= 768px) { html{font-size:55%;} .box{width:100%; height:180rem;} .gradient{width:100%; height:100%;}
+ .gradient2{width:100%;} .bg1{width: 100%; height:812px;}  .pic img{width:27rem; height:28rem; margin-left:-45%;}  
+    .h22{margin-left:-38rem;} .navbg{width:100%;} .cont{margin-top:6rem;} .thk{font-family: 'Alegreya';}
+  .fsect0{font-family:'Alegreya'; margin-top:28rem;}  .amoo{animation-name:wooalter; animation-duration:6s; animation-iteration-count:infinite;}
+  .fsect4{margin-left:-20%; margin-top:45rem;} .fsect5{margin-left:12%; margin-top:40rem;} .fsect6{margin-left:42%; margin-top:34rem;}
+  .fsect1{margin-left:-20%; margin-top:30rem;} .fsect2{margin-left:12%; margin-top:25rem;} .fsect3{margin-left:42%; margin-top:18rem;}
+   .fafa{margin-left:-34%; margin-top:67rem;}   .far{margin-top:-4rem;}    .gradient h6{margin-top:32rem;}
+  .h33{margin-top:36rem; margin-left:6%;}  .h77{margin-top:-4.5rem; margin-left:52%;}
+   .h55{margin-left:35%;} .h44{font-size:2.3rem; margin-top:30rem;} .title{font-size:1.5rem; margin-left:-4rem; padding-bottom:12%;}
+   .navitem{font-size:1.3rem; margin-right:-3%;} .skills1{margin-left:-95%;} .experience{padding-left:32%;} 
+  .prosect1{margin-left:10%; margin-top:5rem;}  .prosect2{margin-left:54%; margin-top:5rem;} 
+  .prosect3{margin-left:10%; margin-top:21rem;} .prosect4{margin-left:54%; margin-top:21rem;} 
+  .prosect5{margin-left:10%; margin-top:38rem;} .prosect6{margin-left:54%; margin-top:38rem;}
+ .name{margin-left:2%; font-size:2rem;} .info{margin-left:2%; font-size:0.9rem;}
+ #textBlock1{margin-left:0.5%; margin-top:-0.5rem;}   #textBlock2{margin-left:55%; margin-top:-0.5rem;}
+ #textBlock3{margin-left:18%; margin-top:28rem;}  #textBlock4{margin-left:42%; margin-top:14rem;}
+ #textBlock5{margin-left:1%; margin-top:32rem;}  #textBlock6{margin-left:35%; margin-top:46rem;}
  html body{ width:100%; height:100%; margin:0px; padding:0px; overflow-x:hidden;}}
 
 
