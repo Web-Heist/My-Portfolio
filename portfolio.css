@@ -192,13 +192,12 @@ animation-iteration-count:1;}
 
 }
 
-
 .pic img{
     border-top-right-radius:100%;
     border-bottom-left-radius:100%;
     border-top-left-radius:100%;
     border-bottom-right-radius:100%;
-    width:24%; height:48%;
+    width:25%; height:49%;
             margin-top:-11.5rem;
            margin-left:6%;
            position: absolute;}
@@ -648,7 +647,7 @@ margin-left :2rem;
 
 /* Extra small devices (phones, 485px and down) */
 @media  only screen and (width <= 485px) { html{font-size:55%;} .box{width:100%; height:180rem;} .gradient{width:100%; height:100%;}
- .gradient2{width:100%;} .bg1{width: 100%; height:812px;}  .pic img{width:27rem; height:28rem; margin-left:-50%;}  
+ .gradient2{width:100%;} .bg1{width: 100%; height:812px;}  .pic img{width:27.5rem; height:28rem; margin-left:-50%;}  
     .h22{margin-left:-38rem; width:10rem;} .navbg{width:100%;} .cont{margin-top:6rem;} .thk{font-family: 'Alegreya';}
   .fsect0{font-family:'Alegreya'; margin-top:28rem;}  .amoo{animation-name:wooalter; animation-duration:7s; animation-iteration-count:infinite;}
   .fsect4{margin-left:-20%; margin-top:45rem;} .fsect5{margin-left:12%; margin-top:40rem;} .fsect6{margin-left:42%; margin-top:34rem;}
