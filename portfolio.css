@@ -57,14 +57,14 @@
 
 .fafa{ color:rgb(17, 28, 34); position: absolute;
     margin-left:-22%;
-    margin-top:23rem;
+    margin-top:22rem;
      animation-name:yoo;
     animation-duration:2s;
    animation-iteration-count: infinite;}
 
    .far{color:rgb(17, 28, 34);
     float:left;
-    margin-top:-5%;
+    margin-top:-7rem;
     margin-left:20%;
       animation-name:yon;
     animation-duration:2s;
@@ -268,8 +268,8 @@ margin-left :2rem;
 
 #textBlock1 {
     width: 18rem; position: absolute;
-    height: 11rem;  z-index:30;
-    margin-left:2%; margin-top:1rem;
+    height: 12rem;  z-index:30;
+    margin-left:1%; margin-top:0.5rem;
     padding: 1.5rem;
    background-image: linear-gradient(to right, rgb(63, 59, 70), rgb(41, 59, 55)); 
     color: white;
@@ -290,7 +290,7 @@ margin-left :2rem;
 #textBlock2 {
     width: 18rem; position: absolute;
     height: 11rem;  z-index:30;
-    margin-left:48%; margin-top:1rem;
+    margin-left:48%; margin-top:0.5rem;
     padding: 1.5rem;
    background-image: linear-gradient(to right, rgb(63, 59, 70), rgb(41, 59, 55)); 
     color: white;
@@ -310,8 +310,8 @@ margin-left :2rem;
 
 #textBlock3 {
     width: 18rem; position: absolute;
-    height: 11rem;  z-index:30;
-    margin-left:72%; margin-top:1rem;
+    height: 12rem;  z-index:30;
+    margin-left:73%; margin-top:0.5rem;
     padding: 1.5rem;
    background-image: linear-gradient(to right, rgb(63, 59, 70), rgb(41, 59, 55)); 
     color: white;
@@ -331,8 +331,8 @@ margin-left :2rem;
 
 #textBlock4 {
     width: 18rem; position: absolute;
-    height: 11rem;  z-index:30;
-    margin-left:2%; margin-top:22rem;
+    height: 12rem;  z-index:30;
+    margin-left:1%; margin-top:22rem;
     padding: 1.5rem;
    background-image: linear-gradient(to right, rgb(63, 59, 70), rgb(41, 59, 55)); 
     color: white;
@@ -374,7 +374,7 @@ margin-left :2rem;
 #textBlock6 {
     width: 18rem; position: absolute;
     height: 11rem;  z-index:30;
-    margin-left:72%; margin-top:22rem;
+    margin-left:73%; margin-top:22rem;
     padding: 1.5rem;
    background-image: linear-gradient(to right, rgb(63, 59, 70), rgb(41, 59, 55)); 
     color: white;
@@ -625,32 +625,32 @@ margin-left :2rem;
     20% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:15%;}
     30%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:35rem;}
     40% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:25%;}
-    45%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:12rem;}
+    45%{ background-image: linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-top:12rem;}
     50% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:35%;}
     55%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:35rem;}
     60% { background-image:linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-left:43%;}
-    65%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:12rem;}
+    65%{ background-image: linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-top:12rem;}
     70% { background-image:linear-gradient(to top ,rgb(230, 229, 229),rgb(48,68,88)); margin-left:50%;}
     75%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:35rem;}
     80% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:57%}
     85%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:12rem;}
     90% { background-image:linear-gradient(to top ,rgb(238, 237, 237),rgb(48,68,88)); margin-left:64%;}
-    95%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:35rem;}
+    95%{ background-image: linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-top:35rem;}
     100% { background-image:linear-gradient(to top ,rgb(233, 232, 232),rgb(48,68,88)); margin-left:71%;}
     105%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:12rem;}
     110% { background-image:linear-gradient(to top ,rgb(233, 231, 231),rgb(48,68,88)); margin-left:78%;}
     115%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:35rem;}
     120% { background-image:linear-gradient(to top ,rgb(235, 234, 234),rgb(48,68,88)); margin-left:85%;}
-    125%{ background-image: linear-gradient(to top ,black, rgb(48,68,88)); margin-top:12rem;}
+    125%{ background-image: linear-gradient(to top ,rgb(235, 233, 233),rgb(48,68,88)); margin-top:12rem;}
     130% { background-image:linear-gradient(to top ,rgb(235, 232, 232),rgb(48,68,88)); margin-left:100%;}
 }
 
 
 /* Extra small devices (phones, 485px and down) */
 @media  only screen and (width <= 485px) { html{font-size:55%;} .box{width:100%; height:180rem;} .gradient{width:100%; height:100%;}
- .gradient2{width:100%;} .bg1{width: 100%; height:812px;}  .pic img{width:27rem; height:28rem; margin-left:-45%;}  
+ .gradient2{width:100%;} .bg1{width: 100%; height:812px;}  .pic img{width:27rem; height:28rem; margin-left:-50%;}  
     .h22{margin-left:-38rem; width:10rem;} .navbg{width:100%;} .cont{margin-top:6rem;} .thk{font-family: 'Alegreya';}
-  .fsect0{font-family:'Alegreya'; margin-top:28rem;}  .amoo{animation-name:wooalter; animation-duration:6s; animation-iteration-count:infinite;}
+  .fsect0{font-family:'Alegreya'; margin-top:28rem;}  .amoo{animation-name:wooalter; animation-duration:7s; animation-iteration-count:infinite;}
   .fsect4{margin-left:-20%; margin-top:45rem;} .fsect5{margin-left:12%; margin-top:40rem;} .fsect6{margin-left:42%; margin-top:34rem;}
   .fsect1{margin-left:-20%; margin-top:30rem;} .fsect2{margin-left:12%; margin-top:25rem;} .fsect3{margin-left:42%; margin-top:18rem;}
    .fafa{margin-left:-34%; margin-top:65rem;}   .far{margin-top:-7rem; margin-left:32%;}    .gradient h6{margin-top:32rem;}
@@ -660,17 +660,22 @@ margin-left :2rem;
   .prosect1{margin-left:10%; margin-top:5rem;}  .prosect2{margin-left:54%; margin-top:5rem;} 
   .prosect3{margin-left:10%; margin-top:21rem;} .prosect4{margin-left:54%; margin-top:21rem;} 
   .prosect5{margin-left:10%; margin-top:38rem;} .prosect6{margin-left:54%; margin-top:38rem;}
+  @keyframes myskl{
+    0%{ opacity:0;  transform:translate(25rem,-10rem);}
+    100%{opacity:1; transform:translate(3%,0.1rem); }
+ }
  .name{margin-left:2%; font-size:2rem;} .info{margin-left:2%; font-size:0.9rem;}
  #textBlock1{margin-left:0.5%; margin-top:-0.5rem; height:13rem;}   #textBlock2{margin-left:55%; margin-top:-0.5rem;height:13rem;}
  #textBlock3{margin-left:18%; margin-top:28rem; height:13rem;}  #textBlock4{margin-left:42%; margin-top:14rem; height:13rem;}
  #textBlock5{margin-left:1%; margin-top:32rem; height:13rem;}  #textBlock6{margin-left:35%; margin-top:46rem; height:13rem;}
- html body{ width:100%; height:100%; margin:0px; padding:0px; overflow-x:hidden;}}
+ html body{ width:100%; height:100%; margin:0px; padding:0px; overflow-x:hidden;}
+}
 
 
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {html{font-size:100%;} .box{width:100%; height:250;} .gradient{width:100%; height:100%;}
+@media only screen and (min-width: 1200px) {html{font-size:100%;} .box{width:100%; height:120rem;} .gradient{width:100%; height:100%;}
 .gradient2{width:100%;} .bg1{width:100%; height:100%;} .navitem{font-size:1.5rem;} .navbg{width: 100%;} .skills1{margin-left:-70rem;}
 .name{font-size:3rem; margin-left:69%;} .info{margin-left:69%;}}
 
