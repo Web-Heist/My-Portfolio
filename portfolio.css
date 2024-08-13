@@ -197,7 +197,7 @@ animation-iteration-count:1;}
     border-bottom-left-radius:100%;
     border-top-left-radius:100%;
     border-bottom-right-radius:100%;
-    width:25%; height:49%;
+    width:25rem; height:25.5rem;
             margin-top:-11.5rem;
            margin-left:6%;
            position: absolute;}
@@ -224,22 +224,13 @@ animation-iteration-count:1;}
 
 
 .name{
-    margin-left:69rem; margin-top:-4rem; color: rgb(0, 0, 0); font-size:3.5rem; font-family:'Times New Roman';
+    margin-left:69%; margin-top:-4rem; color: rgb(0, 0, 0); font-size:3.5rem; font-family:'Times New Roman';
 }
 .info{
-    margin-left:69rem; margin-top:-0.5rem; color: rgb(96, 139, 196); font-size:1.2rem;
+    margin-left:69%; margin-top:-0.5rem; color: rgb(96, 139, 196); font-size:1.2rem;
 }
 
 .welcome{color:rgba(255, 255, 255, 0.842); margin-left:3rem; margin-top:8rem;}
-
- .skills1{ 
-    position:static;
-    font-size: 1rem;
-    margin-left:-70rem;
-    margin-top:-3rem;
-    text-align: center;
-    align-items: center;
- }
 
  .experience{
     position:relative;
@@ -391,15 +382,23 @@ margin-left :2rem;
     transform: translateY(0);
 }
 
-
-
+.skills1{ 
+    position:static;
+    font-size: 1rem;
+    margin-left:-70rem;
+    margin-top:-3rem;
+    text-align: center;
+    align-items: center;
+ }
 
 
 .s1{  animation:myskl;
-    animation-duration:1s;
+    animation-duration:1s; 
     animation-iteration-count:1;
     width:4.3rem; height:1.5rem;
     position: absolute;
+    visibility:hidden;
+    animation-fill-mode:forwards;
     
 }
 .s2{
@@ -409,6 +408,9 @@ margin-left :2rem;
     width:4.3rem; height:1.5rem;
     position: absolute;
     animation-delay:0.5s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 
 }
 .s3{
@@ -418,6 +420,9 @@ margin-left :2rem;
     width:6rem; height:1.5rem;
     position: absolute;
     animation-delay:1s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
     
 }
 .s4{
@@ -427,6 +432,9 @@ margin-left :2rem;
     width:7rem; height:1.5rem;
     position: absolute;
     animation-delay:1.5s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s5{
     animation:myskl;
@@ -435,6 +443,9 @@ margin-left :2rem;
     width:6rem; height:1.5rem;
     position: absolute;
     animation-delay:2s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }   
 .s6{
     animation:myskl;
@@ -443,6 +454,9 @@ margin-left :2rem;
     width:12.5rem; height:1.5rem;
     position: absolute;
     animation-delay:2.5s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s7{
     animation:myskl;
@@ -451,6 +465,9 @@ margin-left :2rem;
     width:12rem; height:1.5rem;
     position: absolute;
     animation-delay:3s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s8{
     animation:myskl;
@@ -459,6 +476,9 @@ margin-left :2rem;
     width:12rem; height:1.5rem;
     position: absolute;
     animation-delay:3.5s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s9{
     animation:myskl;
@@ -467,6 +487,9 @@ margin-left :2rem;
     width:11rem; height:1.5rem;
     position: absolute;
     animation-delay:4s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 
 .s10{
@@ -476,6 +499,9 @@ margin-left :2rem;
     width:14rem; height:1.5rem;
     position: absolute;
     animation-delay:4.5s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s11{
     animation:myskl;
@@ -484,6 +510,9 @@ margin-left :2rem;
     width:7rem; height:1.5rem;
     position: absolute;
     animation-delay:5s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 
 .s11{
@@ -493,6 +522,9 @@ margin-left :2rem;
     width:7rem; height:1.5rem;
     position: absolute;
     animation-delay:5.3s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s12{
     animation:myskl;
@@ -501,6 +533,9 @@ margin-left :2rem;
     width:4.5rem; height:1.5rem;
     position: absolute;
     animation-delay:5.6s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s13{
     animation:myskl;
@@ -509,6 +544,9 @@ margin-left :2rem;
     width:5.5rem; height:1.5rem;
     position: absolute;
     animation-delay:6s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s14{
     animation:myskl;
@@ -517,6 +555,9 @@ margin-left :2rem;
     width:9rem; height:1.5rem;
     position: absolute;
     animation-delay:6.4s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s15{
     animation:myskl;
@@ -525,6 +566,9 @@ margin-left :2rem;
     width:9.5rem; height:1.5rem;
     position: absolute;
     animation-delay:6.8s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s16{
     animation:myskl;
@@ -533,6 +577,9 @@ margin-left :2rem;
     width:9rem; height:1.5rem;
     position: absolute;
     animation-delay:7.2s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s17{
     animation:myskl;
@@ -541,6 +588,9 @@ margin-left :2rem;
     width:10rem; height:1.5rem;
     position: absolute;
     animation-delay:7.5s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 .s18{
     animation:myskl;
@@ -549,6 +599,9 @@ margin-left :2rem;
     width:6rem; height:1.5rem;
     position: absolute;
     animation-delay:8s;
+    visibility:hidden;
+    animation-fill-mode:forwards;
+    
 }
 
 .amoo{
@@ -589,7 +642,7 @@ margin-left :2rem;
         opacity:0;
         transform:translate(60rem,-10rem);
     }
-    100%{
+    100%{ visibility:visible;
         opacity:1;
         transform:translate(3%,0.1rem); }
     }
@@ -645,11 +698,45 @@ margin-left :2rem;
 }
 
 
+
+
+
+
+
+@media  only screen and ( width = 1366px) { html{font-size:80%;} html body{ width:100%; overflow-x:hidden;} .box{height:120rem;}
+}
+@media  only screen and ( width = 1280px) { html{font-size:70%;} html body{ width:100%; overflow-x:hidden;} .box{height:120rem;}
+}
+@media  only screen and ( width = 1024px) { html{font-size:65%;} html body{ width:100%; overflow-x:hidden;} .box{height:120rem;}
+.content video{width:60%; height:14rem; margin-top:10rem;}
+}
+@media  only screen and ( width = 912px) { html{font-size:60%;} html body{ width:100%; overflow-x:hidden;} .box{height:120rem;}
+.content video{width:60%; height:14rem; margin-top:10rem;}
+}
+@media  only screen and ( width = 820px) { html{font-size:55%;} html body{ width:100%; overflow-x:hidden;} .box{height:130rem;}
+.content video{width:60%; height:14rem; margin-top:10rem;}
+}
+@media  only screen and ( width = 800px) { html{font-size:55%;} html body{ width:100%; overflow-x:hidden;} .box{height:130rem;}
+.content video{width:60%; height:14rem; margin-top:10rem;}
+}
+@media  only screen and ( width = 768px) { html{font-size:52%;} html body{ width:100%; overflow-x:hidden;} .box{height:130rem;}
+.content video{width:60%; height:14rem; margin-top:10rem;}
+}
+@media  only screen and ( width = 712px) { html{font-size:49%;} html body{ width:100%; overflow-x:hidden;} .box{height:130rem;}
+.content video{width:60%; height:14rem; margin-top:10rem;}
+}
+@media  only screen and ( width = 640px) { html{font-size:49%;} html body{ width:100%; overflow-x:hidden;} .box{height:130rem;}
+.content video{width:60%; height:14rem; margin-top:10rem;}
+}
+@media  only screen and ( width = 600px) { html{font-size:47%;} html body{ width:100%; overflow-x:hidden;} .box{height:130rem;}
+.content video{width:60%; height:14rem; margin-top:10rem;}
+}
+
 /* Extra small devices (phones, 485px and down) */
 @media  only screen and (width <= 485px) { html{font-size:55%;} .box{width:100%; height:180rem;} .gradient{width:100%; height:100%;}
- .gradient2{width:100%;} .bg1{width: 100%; height:812px;}  .pic img{width:27.5rem; height:28rem; margin-left:-50%;}  
+ .gradient2{width:100%;} .bg1{width: 100%; height:812px;}  .pic img{margin-left:-45%;}  
     .h22{margin-left:-38rem; width:10rem;} .navbg{width:100%;} .cont{margin-top:6rem;} .thk{font-family: 'Alegreya';}
-  .fsect0{font-family:'Alegreya'; margin-top:28rem;}  .amoo{animation-name:wooalter; animation-duration:7s; animation-iteration-count:infinite;}
+  .fsect0{font-family:'Alegreya'; margin-top:28rem;}  .amoo{animation-name:wooalter; animation-duration:6.5s; animation-iteration-count:infinite;}
   .fsect4{margin-left:-20%; margin-top:45rem;} .fsect5{margin-left:12%; margin-top:40rem;} .fsect6{margin-left:42%; margin-top:34rem;}
   .fsect1{margin-left:-20%; margin-top:30rem;} .fsect2{margin-left:12%; margin-top:25rem;} .fsect3{margin-left:42%; margin-top:18rem;}
    .fafa{margin-left:-34%; margin-top:65rem;}   .far{margin-top:-7rem; margin-left:32%;}    .gradient h6{margin-top:32rem;}
@@ -661,7 +748,7 @@ margin-left :2rem;
   .prosect5{margin-left:10%; margin-top:38rem;} .prosect6{margin-left:54%; margin-top:38rem;}
   @keyframes myskl{
     0%{ opacity:0;  transform:translate(25rem,-10rem);}
-    100%{opacity:1; transform:translate(3%,0.1rem); }
+    100%{opacity:1; visibility:visible; transform:translate(3%,0.1rem); }
  }
  .name{margin-left:2%; font-size:2rem;} .info{margin-left:2%; font-size:0.9rem;}
  #textBlock1{margin-left:0.5%; margin-top:-0.5rem; height:13rem;}   #textBlock2{margin-left:55%; margin-top:-0.5rem;height:13rem;}
@@ -674,7 +761,7 @@ margin-left :2rem;
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {html{font-size:100%;} .box{width:100%; height:120rem;} .gradient{width:100%; height:100%;}
-.gradient2{width:100%;} .bg1{width:100%; height:100%;} .navitem{font-size:1.5rem;} .navbg{width: 100%;} .skills1{margin-left:-70rem;}
-.name{font-size:3rem; margin-left:69%;} .info{margin-left:69%;}}
+@media only screen and (min-width: 1400px) {html{font-size:100%;} .box{width:100%; height:120rem; overflow-x:hidden;} .gradient{width:100%; height:100%;}
+.gradient2{width:100%; overflow-x: hidden;} .bg1{width:100%; height:100%;} .navitem{font-size:1.5rem;} .navbg{width: 100%;} .skills1{margin-left:-70rem;}
+.name{font-size:3rem; margin-left:69%;} .info{margin-left:69%;}} html body{overflow-x:hidden;}
 
