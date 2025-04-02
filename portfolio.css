@@ -347,7 +347,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:4.3rem; height:1.5rem;
     position: absolute;
-    animation-delay:0.5s;
+    animation-delay:0.4s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -359,7 +359,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:6rem; height:1.5rem;
     position: absolute;
-    animation-delay:1s;
+    animation-delay:0.8s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -371,7 +371,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:7rem; height:1.5rem;
     position: absolute;
-    animation-delay:1.5s;
+    animation-delay:1.3s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -382,7 +382,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:6rem; height:1.5rem;
     position: absolute;
-    animation-delay:2s;
+    animation-delay:1.7s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -393,7 +393,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:12.5rem; height:1.5rem;
     position: absolute;
-    animation-delay:2.5s;
+    animation-delay:2.1s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -404,7 +404,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:12rem; height:1.5rem;
     position: absolute;
-    animation-delay:3s;
+    animation-delay:2.5s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -413,9 +413,9 @@ margin-left :2rem;
     animation:myskl;
     animation-duration:1s;
     animation-iteration-count:1;
-    width:12rem; height:1.5rem;
+    width:8rem; height:1.5rem;
     position: absolute;
-    animation-delay:3.5s;
+    animation-delay:2.9s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -426,7 +426,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:11rem; height:1.5rem;
     position: absolute;
-    animation-delay:4s;
+    animation-delay:3.2s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -438,18 +438,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:14rem; height:1.5rem;
     position: absolute;
-    animation-delay:4.5s;
-    visibility:hidden;
-    animation-fill-mode:forwards;
-    
-}
-.s11{
-    animation:myskl;
-    animation-duration:0.5s;
-    animation-iteration-count:1;
-    width:7rem; height:1.5rem;
-    position: absolute;
-    animation-delay:5s;
+    animation-delay:3.6s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -459,9 +448,9 @@ margin-left :2rem;
     animation:myskl;
     animation-duration:0.5s;
     animation-iteration-count:1;
-    width:7rem; height:1.5rem;
+    width:15.5rem; height:1.5rem;
     position: absolute;
-    animation-delay:5.3s;
+    animation-delay:4s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -472,7 +461,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:4.5rem; height:1.5rem;
     position: absolute;
-    animation-delay:5.6s;
+    animation-delay:4.4s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -483,7 +472,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:5.5rem; height:1.5rem;
     position: absolute;
-    animation-delay:6s;
+    animation-delay:4.8s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -494,7 +483,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:9rem; height:1.5rem;
     position: absolute;
-    animation-delay:6.4s;
+    animation-delay:5.3s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -505,7 +494,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:9.5rem; height:1.5rem;
     position: absolute;
-    animation-delay:6.8s;
+    animation-delay:5.7s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -516,7 +505,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:9rem; height:1.5rem;
     position: absolute;
-    animation-delay:7.2s;
+    animation-delay:6.1s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -527,7 +516,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:10rem; height:1.5rem;
     position: absolute;
-    animation-delay:7.5s;
+    animation-delay:6.5s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -538,7 +527,7 @@ margin-left :2rem;
     animation-iteration-count:1;
     width:6rem; height:1.5rem;
     position: absolute;
-    animation-delay:8s;
+    animation-delay:6.9s;
     visibility:hidden;
     animation-fill-mode:forwards;
     
@@ -690,17 +679,12 @@ margin-left :2rem;
   .h33{margin-top:36rem; margin-left:6%;}  .h77{margin-top:-4.5rem; margin-left:52%;}
    .h55{margin-left:35%;} .h44{font-size:2.3rem; margin-top:30rem;} .title{font-size:1.5rem; margin-left:-4rem; padding-bottom:12%;}
    .navitem{font-size:1.3rem; margin-right:-3%;} .skills1{margin-left:-95%;} .experience{padding-left:32%;} 
-  .prosect1{margin-left:10%; margin-top:5rem;}  .prosect2{margin-left:54%; margin-top:5rem;} 
-  .prosect3{margin-left:10%; margin-top:21rem;} .prosect4{margin-left:54%; margin-top:21rem;} 
-  .prosect5{margin-left:10%; margin-top:38rem;} .prosect6{margin-left:54%; margin-top:38rem;}
+  
   @keyframes myskl{
     0%{ opacity:0;  transform:translate(25rem,-10rem);}
     100%{opacity:1; visibility:visible; transform:translate(3%,0.1rem); }
  }
  .name{margin-left:2%; font-size:2rem;} .info{margin-left:2%; font-size:0.9rem;}
- #textBlock1{margin-left:0.5%; margin-top:-0.5rem; height:13rem;}   #textBlock2{margin-left:55%; margin-top:-0.5rem;height:13rem;}
- #textBlock3{margin-left:18%; margin-top:28rem; height:13rem;}  #textBlock4{margin-left:42%; margin-top:14rem; height:13rem;}
- #textBlock5{margin-left:1%; margin-top:32rem; height:13rem;}  #textBlock6{margin-left:35%; margin-top:46rem; height:13rem;}
  html body{ width:100%; height:100%; margin:0px; padding:0px; overflow-x:hidden;}
 }
 
