@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Maaz Khalid | Mechatronics Engineer & Developer</title>
+  <title>Maaz Khalid | Engineer & Developer</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
@@ -14,17 +14,26 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="portfolio.css" />
   <link rel="icon" href="icc.jpg" />
+  <!-- Include Lottie Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.1/lottie.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
 </head>
 <body>
+
   <!-- ====== Header / Hero Section ====== -->
   <header id="home" class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <h1>Maaz Khalid</h1>
-      <p class="tagline">Mechatronics Engineer | Robotics & Embedded Systems | Frontend Developer</p>
+    <!-- Lottie Animation Container -->
+    <div id="hero-animation"></div>
+      <div class="hero-content">
+      <h1>Muhammad Maaz Khalid</h1>
+      <p class="tagline" id="typed-tagline"></p>
+      <br>
       <a href="#about" class="btn">Explore Portfolio</a>
     </div>
   </header>
+  
+
 
   <!-- ====== Navigation Bar ====== -->
   <nav class="navbar">
@@ -34,6 +43,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -41,29 +51,31 @@
   </nav>
 
   <!-- ====== About Section ====== -->
+
   <section id="about" class="about section">
     <div class="container about-container">
-      <div class="about-image">
-        <img src="m0.jpg" alt="Maaz Khalid">
+      <div class="about-image animate-left">
+        <img src="m2.jpg" alt="Maaz Khalid">
       </div>
-      <div class="about-text">
+      <div class="about-text animate-right">
         <h2>About Me</h2>
-        <p>
-          Hi, I'm <strong>Maaz Khalid</strong> from Pakistan, a <strong>Mechatronics Engineer</strong> passionate about robotics, automation, and embedded systems. 
-          I love integrating hardware and software to bring innovative solutions to life.
+        <p class="fade-item">
+          Hey, this is <strong>Maaz Khalid</strong>, <strong>a Mechatronics Engineer</strong> passionate about robotics, automation, and embedded systems. I love integrating hardware and software to bring innovative solutions to life.
         </p>
-        <p>
+        <p class="fade-item">
           Alongside my engineering background, I work as a <strong>Frontend Web Developer</strong> skilled in building interactive, responsive web applications that merge design and technology beautifully.
         </p>
-        <p class="edu"><i class="fa-solid fa-graduation-cap"></i> Bachelor’s in Mechatronics Engineering — NUST CEME</p>
+        <p class="edu fade-item"><i class="fa-solid fa-graduation-cap"></i> Bachelor’s in Mechatronics Engineering — NUST CEME</p>
       </div>
     </div>
   </section>
 
   <!-- ====== Skills Section ====== -->
   <section id="skills" class="skills section">
+    <div id="skill-animation" class="skill-animation">
+    </div>
     <div class="container">
-      <h2 class="section-title">Technical Skills</h2>
+      <h3 class="skill-title">Technical Skills</h3>
       <div class="skills-grid">
         <div class="skill"><i class="fa-brands fa-html5"></i> HTML</div>
         <div class="skill"><i class="fa-brands fa-css3-alt"></i> CSS</div>
@@ -81,135 +93,432 @@
         <div class="skill"><i class="fa-solid fa-code"></i> C++ / OOP / Assembly</div>
         <div class="skill"><i class="fa-solid fa-bolt"></i>Creativity / Leadership</div>
       </div>
-
-      <div class="experience">
-        <h3>Experience</h3>
-        <ul>
-          <li><strong>Technical Team Lead</strong> – Robotics & Automation Club (NUST CEME) — <em>Sept 2025 – Present</em></li>
-          <li><strong>Mechatronics Intern</strong> – Green AI, Green Cabin (PMAS Arid) — <em>July 2025 – Aug 2025</em></li>
-          <li><strong>Web App Developer Intern</strong> – Zapply (Remote Startup) — <em>June 2025 – Aug 2025</em></li>
-          <li><strong>Deputy Director NERC</strong> – Dept. of Mechatronics Engineering (NUST CEME) — <em>Jan 2025 – June 2025</em></li>
-          <li><strong>Frontend Developer Intern</strong> – Developer’s Hub Corporation — <em>Dec 2024 – Feb 2025</em></li>
-          <li><strong>Ambassador Robian</strong> – Comsats University Islamabad — <em>Dec 2024</em></li>
-          <li><strong>Volunteer</strong> – National Engineering Robotic Contest (NERC) — <em>Jan 2024 – July 2024</em></li>
-        </ul>
-      </div>
     </div>
+    </section>
+
+      <section id="experience" class="experience-timeline">
+        <div id="exp-animation" class="exp-animation"></div>
+        <div class="overlay"></div>
+        <div class="container">
+        <h3>Experiences</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fa-solid fa-robot"></i></div>
+            <div class="timeline-content">
+              <h4>Technical Team Lead</h4>
+              <p>Robotics & Automation Club (NUST CEME)</p>
+              <span>Sept 2025 – Present</span>
+            </div>
+          </div>
+      
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fa-solid fa-cogs"></i></div>
+            <div class="timeline-content">
+              <h4>Mechatronics Intern</h4>
+              <p>Green AI, Green Cabin (PMAS Arid)</p>
+              <span>July 2025 – Aug 2025</span>
+            </div>
+          </div>
+      
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fa-brands fa-react"></i></div>
+            <div class="timeline-content">
+              <h4>Web App Developer Intern</h4>
+              <p>Zapply (Remote Startup)</p>
+              <span>June 2025 – Aug 2025</span>
+            </div>
+          </div>
+      
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="timeline-content">
+              <h4>Deputy Director NERC</h4>
+              <p>Dept. of Mechatronics Engineering (NUST CEME)</p>
+              <span>Jan 2025 – June 2025</span>
+            </div>
+          </div>
+      
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fa-brands fa-github"></i></div>
+            <div class="timeline-content">
+              <h4>Frontend Developer Intern</h4>
+              <p>Developer’s Hub Corporation</p>
+              <span>Dec 2024 – Feb 2025</span>
+            </div>
+          </div>
+      
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fa-solid fa-handshake"></i></div>
+            <div class="timeline-content">
+              <h4>Ambassador Robian</h4>
+              <p>Comsats University Islamabad</p>
+              <span>Dec 2024</span>
+            </div>
+          </div>
+      
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fa-solid fa-people-group"></i></div>
+            <div class="timeline-content">
+              <h4>Volunteer</h4>
+              <p>National Engineering Robotic Contest (NERC)</p>
+              <span>Jan 2024 – July 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
   </section>
 
   <!-- ====== Projects Section ====== -->
-  <section id="projects" class="projects section">
-    <div class="container">
-      <h2 class="section-title">Projects</h2>
-      <div class="project-grid">
 
-        <div class="project-card">
-          <img src="bot.jpg" alt="Crime Control Robot">
-          <div class="project-info">
-            <h3>Autonomous Crime Control Robot</h3>
-            <p>Currently developing an autonomous robot using ROS2 and embedded systems for real-time decision making.</p>
+  <section id="projects" class="project-showcase">
+    <h2 class="section-title">Projects</h2>
+  
+    <div class="showcase">
+  
+      <!-- PROJECT 1 -->
+      <div class="showcase-item">
+        <div class="showcase-text">
+          <span class="tag">ROBOTICS · AUTONOMY</span>
+          <h3>Autonomous Crime Control Robot</h3>
+          <p>
+            An autonomous robot designed for surveillance and real-time decision making,
+            integrating ROS2 with embedded systems and sensor fusion.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> In Development</span>
+            <span><b>Stack:</b> ROS2, Embedded C++, Sensors</span>
+            <span><b>Role:</b> Robotics Engineer</span>
+            <span><b>Year:</b> 2025</span>
           </div>
         </div>
-
-        <div class="project-card">
-          <img src="dash.png" alt="Frontend Dashboard">
-          <div class="project-info">
-            <h3>Frontend Dashboard for Robot</h3>
-            <p>Built a frontend dashboard using FastAPI for real-time robot monitoring and control.</p>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="jobt.jpeg" alt="Job Tracker">
-          <div class="project-info">
-            <h3>Job Listing Tracker, Scraper & Autofill Chrome Extensions</h3>
-            <p>Developed tools to save and track job listings with scraping, autofill, and fuzzy matching features.</p>
-            <a href="https://github.com/Web-Heist" target="_blank" class="btn">View GitHub</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="circuit.jpeg" alt="Circuit Builder App">
-          <div class="project-info">
-            <h3>Circuit Builder Application</h3>
-            <p>Kids-friendly desktop app built in C++ for circuit learning and simulation.</p>
-            <a href="https://anything.kesug.com" target="_blank" class="btn">View Project</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="iiiqqq.png" alt="Anything Website">
-          <div class="project-info">
-            <h3>Anything Website</h3>
-            <p>A platform where users share writings, theories, and creative ideas.</p>
-            <a href="https://anything.kesug.com" target="_blank" class="btn">View Project</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="gamers.jpg" alt="Gamers Matters">
-          <div class="project-info">
-            <h3>Gamers Matters</h3>
-            <p>Website for gamers to publish tutorials and gameplay videos.</p>
-            <a href="https://gamersmatters.rf.gd" target="_blank" class="btn">View Project</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="textop.png" alt="Text Operator">
-          <div class="project-info">
-            <h3>Text Operator</h3>
-            <p>React-based text manipulation web app.</p>
-            <a href="https://web-heist.github.io/Text-Operator/" target="_blank" class="btn">View Project</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="wireless.jpeg" alt="CAD">
-          <div class="project-info">
-            <h3>Wireless transmitter and Receiver</h3>
-            <p>Hands-on experience with Electromagnetic theory</p>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="lfr.jpeg" alt="CAD">
-          <div class="project-info">
-            <h3>Line Following Robot | Digital Logic Design</h3>
-            <p>Developed a Line Following Robot using Digital Logic Design</p>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="gear.jpeg" alt="CAD">
-          <div class="project-info">
-            <h3>Epicyclic Gear and Ansys Simulation  </h3>
-            <p>Designed a gear system using solidworks and conducted simulations in Ansys </p>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="hbridge.jpg" alt="H-Bridge Motor Driver">
-          <div class="project-info">
-            <h3>H-Bridge Motor Driver</h3>
-            <p>Designed and fabricated custom PCB for BJT-based H-Bridge motor driver.</p>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="pcb.jpg" alt="PCB CAD">
-          <div class="project-info">
-            <h3>PCB & CAD Designs</h3>
-            <p>PCB design and mechanical simulations using Altium and SolidWorks.</p>
-          </div>
-        </div>
-
+        <div class="showcase-media"><img src="bot.jpg" alt="Autonomous Crime Control Robot"></div>
       </div>
+  
+      <!-- PROJECT 2 -->
+      <div class="showcase-item reverse">
+        <div class="showcase-text">
+          <span class="tag">WEB · REAL-TIME</span>
+          <h3>Robot Monitoring Dashboard</h3>
+          <p>
+            A real-time dashboard to monitor robot telemetry, system health,
+            and control commands via a modern web interface.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Completed</span>
+            <span><b>Stack:</b> React, FastAPI, WebSockets</span>
+            <span><b>Role:</b> Frontend Developer</span>
+            <span><b>Year:</b> 2025</span>
+          </div>
+        </div>
+        <div class="showcase-media"><img src="dash.png" alt="Robot Dashboard"></div>
+      </div>
+  
+      <!-- PROJECT 3 -->
+      <div class="showcase-item">
+        <div class="showcase-text">
+          <span class="tag">AUTOMATION · EXTENSIONS</span>
+          <h3>Job Listing Tracker & Chrome Extensions</h3>
+          <p>
+            Intelligent Chrome extensions for scraping job listings,
+            autofilling applications, and tracking opportunities.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Completed</span>
+            <span><b>Stack:</b> JavaScript, Chrome API, React</span>
+            <span><b>Role:</b> Full-Stack Developer</span>
+            <span><b>Year:</b> 2024</span>
+          </div>
+          <a href="https://github.com/Web-Heist" target="_blank" class="btn">View GitHub</a>
+        </div>
+        <div class="showcase-media"><img src="jobt.jpeg" alt="Job Tracker"></div>
+      </div>
+
+      <!-- PROJECT 4 -->
+      <div class="showcase-item reverse">
+        <div class="showcase-text">
+          <span class="tag">AUTOMATION</span>
+          <h3>Job Scraper</h3>
+          <p>
+            Web Application for job scraping and tracking opportunities.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Completed</span>
+            <span><b>Stack:</b> JavaScript, Python, React</span>
+            <span><b>Role:</b> Full-Stack Developer</span>
+            <span><b>Year:</b> 2025</span>
+          </div>
+          <a href="https://github.com/Web-Heist" target="_blank" class="btn">View GitHub</a>
+        </div>
+        <div class="showcase-media"><img src="scrape.jfif" alt="Job Tracker"></div>
+      </div>
+        
+      <!-- PROJECT 5 -->
+
+      <div class="showcase-item">
+        <div class="showcase-text">
+          <span class="tag">AUTOMATION · EXTENSIONS</span>
+          <h3>Chrome Autofill Extension</h3>
+          <p>
+            Intelligent Chrome extension for autofilling 
+            applications. Making application process easier.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Completed</span>
+            <span><b>Stack:</b> JavaScript, Chrome API, React</span>
+            <span><b>Role:</b> Full-Stack Developer</span>
+            <span><b>Year:</b> 2025</span>
+          </div>
+          <a href="https://github.com/Web-Heist" target="_blank" class="btn">View GitHub</a>
+        </div>
+        <div class="showcase-media"><img src="autof.jfif" alt="Job Tracker"></div>
+      </div>
+
+<!-- PROJECT 6 -->
+<div class="showcase-item reverse">
+  <div class="showcase-text">
+    <span class="tag">AUTOMATION</span>
+    <h3>Jobs and Resumes Matching server</h3>
+    <p>
+    Intelligently pair resumes with job postings.
+    Extract resume text from PDF and DOCX files and 
+    implement fuzzy skill matching with fuzzywuzzy.
+    </p>
+    <div class="project-meta">
+      <span><b>Status:</b> Completed</span>
+      <span><b>Stack:</b> JavaScript, Gemini Api, React</span>
+      <span><b>Role:</b> Full-Stack Developer</span>
+      <span><b>Year:</b> 2025</span>
+    </div>
+    <a href="https://github.com/Web-Heist" target="_blank" class="btn">View GitHub</a>
+  </div>
+  <div class="showcase-media"><img src="match.jfif" alt="Job Tracker"></div>
+</div>
+  
+
+      <!-- PROJECT 7 -->
+      <div class="showcase-item">
+        <div class="showcase-text">
+          <span class="tag">EDUCATION · DESKTOP APP</span>
+          <h3>Circuit Builder Application</h3>
+          <p>
+            A kid-friendly desktop application that allows users to build
+            and understand electronic circuits visually.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Completed</span>
+            <span><b>Stack:</b> C++, OOP, SFML</span>
+            <span><b>Role:</b> Software Developer</span>
+            <span><b>Year:</b> 2024</span>
+          </div>
+          <a href="https://www.linkedin.com/posts/maaz-khalid-a67a02292_basic-circuit-builder-application-c-activity-7310210071098023936-l3mX?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEb7628BLau2ZMYrW5nHyL4xZLe2SoY3B_8" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="showcase-media"><img src="circuit.jpeg" alt="Circuit Builder App"></div>
+      </div>
+  
+      
+      <!-- PROJECT 8-->
+      <div class="showcase-item reverse">
+        <div class="showcase-text">
+          <span class="tag">WEB · TOOLS</span>
+          <h3>Text Operator</h3>
+          <p>
+            React-based web application for text manipulation and formatting.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Live</span>
+            <span><b>Stack:</b> React, JavaScript</span>
+            <span><b>Role:</b> Frontend Developer</span>
+            <span><b>Year:</b> 2023</span>
+          </div>
+          <a href="https://web-heist.github.io/Text-Operator/" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="showcase-media"><img src="textop.png" alt="Text Operator"></div>
+      </div>
+  
+      <!-- PROJECT 9 -->
+      <div class="showcase-item">
+        <div class="showcase-text">
+          <span class="tag">WEB · PLATFORM</span>
+          <h3>Anything Website</h3>
+          <p>
+            A creative platform where users share writings, theories,
+            and original ideas in an open community.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Live</span>
+            <span><b>Stack:</b> WordPress, PHP, Frontend</span>
+            <span><b>Role:</b> Full-Stack Developer</span>
+            <span><b>Year:</b> 2023</span>
+          </div>
+          <a href="https://anything.kesug.com" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="showcase-media"><img src="iiiqqq.png" alt="Anything Website"></div>
+      </div>
+  
+      <!-- PROJECT 10 -->
+      <div class="showcase-item reverse">
+        <div class="showcase-text">
+          <span class="tag">GAMING · COMMUNITY</span>
+          <h3>Gamers Matters</h3>
+          <p>
+            A gaming-focused website allowing gamers to publish tutorials,
+            gameplay videos, and guides.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Live</span>
+            <span><b>Stack:</b> WordPress, Elementor</span>
+            <span><b>Role:</b> Web Developer</span>
+            <span><b>Year:</b> 2023</span>
+          </div>
+          <a href="https://gamersmatters.rf.gd" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="showcase-media"><img src="gamers.jpg" alt="Gamers Matters"></div>
+      </div>
+  
+       <!-- PROJECT 11 -->
+       <div class="showcase-item">
+        <div class="showcase-text">
+          <span class="tag">Sensor · Embedded</span>
+          <h3>Human Grip Pressure Analyzer
+          </h3>
+          <p>
+            Sense grip pressure, analyze it and
+            show readings on Dashboard
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Completed</span>
+            <span><b>Stack:</b> FSR Sensor, ESP32, Signal Conditioning</span>
+            <span><b>Role:</b> Robotics Engineer</span>
+            <span><b>Year:</b> 2025</span>
+          </div>
+        </div>
+        <div class="showcase-media"><img src="grip.jpeg" alt="Grip"></div>
+      </div>
+
+      <!-- PROJECT 12-->
+      <div class="showcase-item reverse">
+        <div class="showcase-text">
+          <span class="tag">ELECTROMAGNETICS</span>
+          <h3>Wireless Transmitter & Receiver</h3>
+          <p>
+            Hands-on project exploring electromagnetic theory with
+            a wireless transmitter and receiver setup.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Completed</span>
+            <span><b>Stack:</b> Electronics, RF</span>
+            <span><b>Role:</b> Hardware Developer</span>
+            <span><b>Year:</b> 2024</span>
+          </div>
+        </div>
+        <div class="showcase-media"><img src="wireless.jpeg" alt="Wireless Transmitter"></div>
+      </div>
+  
+      <!-- PROJECT 9 -->
+      <div class="showcase-item">
+        <div class="showcase-text">
+          <span class="tag">ROBOTICS · DLD</span>
+          <h3>Line Following Robot | Digital Logic Design</h3>
+          <p>
+            Developed a line-following robot using digital logic design concepts
+            for autonomous navigation.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Completed</span>
+            <span><b>Stack:</b> Arduino, Sensors, Digital Logic</span>
+            <span><b>Role:</b> Robotics Developer</span>
+            <span><b>Year:</b> 2024</span>
+          </div>
+        </div>
+        <div class="showcase-media"><img src="lfr.jpeg" alt="Line Following Robot"></div>
+      </div>
+  
+      <!-- PROJECT 10 -->
+      <div class="showcase-item reverse">
+        <div class="showcase-text">
+          <span class="tag">MECHANICAL · SIMULATION</span>
+          <h3>Epicyclic Gear & Ansys Simulation</h3>
+          <p>
+            Designed epicyclic gear systems in SolidWorks and ran simulations in Ansys
+            to test performance under load.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Simulated</span>
+            <span><b>Stack:</b> SolidWorks, Ansys</span>
+            <span><b>Role:</b> Mechanical Designer</span>
+            <span><b>Year:</b> 2024</span>
+          </div>
+        </div>
+        <div class="showcase-media"><img src="gear.jpeg" alt="Epicyclic Gear"></div>
+      </div>
+  
+      <!-- PROJECT 11 -->
+      <div class="showcase-item">
+        <div class="showcase-text">
+          <span class="tag">ELECTRONICS · PCB</span>
+          <h3>H-Bridge Motor Driver</h3>
+          <p>
+            Custom BJT-based H-Bridge motor driver designed and fabricated
+            with PCB layout and testing.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Fabricated</span>
+            <span><b>Stack:</b> PCB Design, Power Electronics</span>
+            <span><b>Role:</b> Hardware Designer</span>
+            <span><b>Year:</b> 2024</span>
+          </div>
+        </div>
+        <div class="showcase-media"><img src="hb.jpeg" alt="H-Bridge Motor Driver"></div>
+      </div>
+  
+      <!-- PROJECT 12 -->
+      <div class="showcase-item reverse">
+        <div class="showcase-text">
+          <span class="tag">PCB Fabrication</span>
+          <h3>PCB Designs</h3>
+          <p>
+            Designs for PCBs using Proteus and Altium
+            with simulation verification.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Completed</span>
+            <span><b>Stack:</b> Proteus, Altium</span>
+            <span><b>Role:</b> Designer / Engineer</span>
+            <span><b>Year:</b> 2024</span>
+          </div>
+        </div>
+        <div class="showcase-media"><img src="pcb.jpeg" alt="PCB Designs"></div>
+      </div>
+
+      <div class="showcase-item">
+        <div class="showcase-text">
+          <span class="tag">CAD Models</span>
+          <h3>CAD Designs</h3>
+          <p>
+            Designs for mechanical systems using SolidWorks.
+          </p>
+          <div class="project-meta">
+            <span><b>Status:</b> Completed</span>
+            <span><b>Stack:</b> SolidWorks</span>
+            <span><b>Role:</b> Designer / Engineer</span>
+            <span><b>Year:</b> 2025</span>
+          </div>
+        </div>
+        <div class="showcase-media"><img src="cad.jpeg" alt="CAD Designs"></div>
+      </div>
+  
     </div>
   </section>
+  
+
+
+
+  
 
   <!-- ====== Contact Section ====== -->
   <section id="contact" class="contact section">
+    <div id="contact-animation"></div>
     <div class="container">
       <h2 class="section-title">Contact Me</h2>
       <form action="https://formsubmit.co/web.heist7@gmail.com" method="POST" class="contact-form">
@@ -220,19 +529,22 @@
         <input type="email" name="Email" placeholder="Email Address" required />
         <textarea name="Message" placeholder="Your Message..." required></textarea>
         <button type="submit" class="btn">Send Message</button>
-      </form>
-
       <div class="contact-info">
         <p><i class="fa-solid fa-envelope"></i> <a href="mailto:web.heist7@gmail.com">web.heist7@gmail.com</a></p>
         <p><i class="fa-brands fa-instagram"></i> <a href="https://instagram.com/web_heist" target="_blank">@web_heist</a></p>
         <p><i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/maaz-khalid-a67a02292" target="_blank">LinkedIn</a></p>
+        
       </div>
     </div>
+  </form>
   </section>
+  
+ 
+
 
   <!-- ====== Footer ====== -->
   <footer class="footer">
-    <p>© 2025 Maaz Khalid | Mechatronics Engineer & Developer</p>
+    <p>© 2025 Maaz Khalid | Mechatronics Engineer | Web Developer</p>
   </footer>
 
   <!-- ====== JS Scroll Animation ====== -->
@@ -245,5 +557,225 @@
       });
     });
   </script>
+
+<script>
+  // Animate timeline items sequentially on scroll
+  const items = document.querySelectorAll('.timeline-item');
+  
+  function isInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return rect.top <= (window.innerHeight || document.documentElement.clientHeight) -200;
+  }
+  
+  function animateTimeline() {
+    let delay = 0; // start delay
+    items.forEach(item => {
+      if (isInViewport(item) && !item.classList.contains('visible')) {
+        setTimeout(() => {
+          item.classList.add('visible');
+        }, delay);
+        delay += 3000; // 200ms delay between items, adjust as needed
+      }
+    });
+  }
+  
+  window.addEventListener('scroll', animateTimeline);
+  window.addEventListener('load', animateTimeline);
+  </script>
+  
+  <script>
+
+const projects = document.querySelectorAll('[data-project]');
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('show');
+        }, index * 120); // stagger effect
+        observer.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.2 }
+);
+
+projects.forEach(project => observer.observe(project));
+
+  </script>
+
+  <script>
+    // Wait for DOM to load
+    document.addEventListener('DOMContentLoaded', () => {
+      const aboutImage = document.querySelector('.about-image');
+      const aboutText = document.querySelector('.about-text h2');
+      const fadeItems = document.querySelectorAll('.fade-item');
+    
+      function isInViewport(el) {
+        const rect = el.getBoundingClientRect();
+        return rect.top <= (window.innerHeight || document.documentElement.clientHeight) - 200;
+      }
+    
+      function animateAbout() {
+        // Animate image
+        if (aboutImage && isInViewport(aboutImage)) {
+          aboutImage.classList.add('visible');
+        }
+    
+        // Animate heading
+        if (aboutText && isInViewport(aboutText)) {
+          aboutText.classList.add('visible');
+        }
+    
+        // Animate paragraphs one by one
+        fadeItems.forEach((item, index) => {
+          if (!item.classList.contains('visible') && isInViewport(item)) {
+            setTimeout(() => {
+              item.classList.add('visible');
+            }, index * 300); // staggered delay (300ms between paragraphs)
+          }
+        });
+      }
+    
+      window.addEventListener('scroll', animateAbout);
+      window.addEventListener('load', animateAbout);
+    });
+    </script>
+
+
+<script>
+  // Infinite Typing Effect
+  const taglineText = "Mechatronics Engineer | Robotics & Embedded Systems | Frontend Developer";
+  const typedTagline = document.getElementById('typed-tagline');
+  
+  let index = 0;
+  let isDeleting = false;
+  
+  function typeInfinite() {
+    let current = taglineText.substring(0, index);
+    typedTagline.innerHTML = current;
+  
+    if (!isDeleting && index < taglineText.length) {
+      index++;
+      setTimeout(typeInfinite, 100); // typing speed
+    } else if (!isDeleting && index === taglineText.length) {
+      isDeleting = true;
+      setTimeout(typeInfinite, 1500); // pause before deleting
+    } else if (isDeleting && index > 0) {
+      index--;
+      setTimeout(typeInfinite, 50); // deleting speed
+    } else if (isDeleting && index === 0) {
+      isDeleting = false;
+      setTimeout(typeInfinite, 500); // pause before typing again
+    }
+  }
+  
+  document.addEventListener('DOMContentLoaded', typeInfinite);
+  </script>
+
+
+<script>
+
+const heroAnimation = lottie.loadAnimation({
+  container: document.getElementById('hero-animation'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: "/assets/lottie/hero.json"
+});
+
+</script>
+
+<script>
+
+  const skillAnimation = lottie.loadAnimation({
+    container: document.getElementById('skill-animation'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: "/assets/lottie/skill.json"
+  });
+  
+  </script>
+
+
+<script>
+
+  const expAnimation = lottie.loadAnimation({
+    container: document.getElementById('exp-animation'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: "/assets/lottie/exp.json"
+  });
+  
+  </script>
+
+<script>
+
+  const contactAnimation = lottie.loadAnimation({
+    container: document.getElementById('contact-animation'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: "/assets/lottie/contact.json"
+  });
+  
+  </script>
+
+<script>
+
+  const pAnimation = lottie.loadAnimation({
+    container: document.getElementById('p-animation'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: "/assets/lottie/p.json"
+  });
+  
+  </script>
+
+  <script>
+    const missions = document.querySelectorAll('[data-mission]');
+
+const missionObserver = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  },
+  { threshold: 0.6 }
+);
+
+missions.forEach(mission => missionObserver.observe(mission));
+
+  </script>
+
+<script>
+  const showcaseItems = document.querySelectorAll('.showcase-item');
+
+window.addEventListener('scroll', () => {
+  showcaseItems.forEach(item => {
+    const rect = item.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 120) {
+      item.classList.add('visible');
+    }
+  });
+});
+
+</script>
+
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  
+  hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+  });
+  </script>
+  
 </body>
 </html>
