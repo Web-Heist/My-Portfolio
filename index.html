@@ -646,7 +646,7 @@ projects.forEach(project => observer.observe(project));
 
 <script>
   // Infinite Typing Effect
-  const taglineText = "Mechatronics Engineer | Robotics & Embedded Systems | Frontend Developer";
+  const taglineText = "Mechatronics Engineer | Frontend Developer";
   const typedTagline = document.getElementById('typed-tagline');
   
   let index = 0;
@@ -756,7 +756,6 @@ missions.forEach(mission => missionObserver.observe(mission));
 
 <script>
   const showcaseItems = document.querySelectorAll('.showcase-item');
-
 window.addEventListener('scroll', () => {
   showcaseItems.forEach(item => {
     const rect = item.getBoundingClientRect();
@@ -767,16 +766,6 @@ window.addEventListener('scroll', () => {
 });
 
 </script>
-
-<script>
-  const hamburger = document.querySelector('.hamburger');
-  const navLinks = document.querySelector('.nav-links');
-  
-  hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('show');
-  });
-  </script>
   
 </body>
 </html>
-
